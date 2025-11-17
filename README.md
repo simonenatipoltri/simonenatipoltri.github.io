@@ -17,6 +17,7 @@
 <img src="photo.jpg" alt="Simone Nati Poltri" width="250" align="left" style="margin-right: 24px; margin-bottom: 12px;" />
 
 **Postdoctoral Researcher**  
+
 Université Côte d'Azur, Nice, France  
 Laboratoire J.A. Dieudonné
 Office 612, LJAD, Parc Valrose, 28 avenue Valrose 06108 Nice, France
@@ -31,11 +32,9 @@ Since January 2025, I am Post-Doc at Université Côte-Azur, supervised by <a hr
 
 I defended my PhD at Inria Bordeaux Sud-Ouest, Université de Bordeaux in December 2024, under the supervision of <a href="https://annabellecollin.perso.math.cnrs.fr">Annabelle Collin</a> and <a href=https://people.rennes.inria.fr/Clair.Poignard/index.html>Clair Poignard</a>.
 
-Before that, I studied for both my Bachelor and Master thesis at Politecnico di Milano. I wrote my Bachelor thesis under the supervision of <a href="[Edie Miglio website URL]">Edie Miglio</a>, and my Master thesis under the supervision of <a href="[Paola Francesca Antonietti website URL]">Paola Francesca Antonietti</a>.
+Before that, I studied Mathematical Engineering at Politecnico di Milano, with a Master in Computational Science and Engineering. My Master thesis was under the supervision of Paola Francesca Antonietti.
+
 
 ---
 
-- Applied Mathematics
-- Mathematical Modeling
-- Partial Differential Equations
-- Scientific Computing
+My research topics include Applied Mathematics, Mathematical Modeling, Partial Differential Equations, and Scientific Computing.
