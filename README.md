@@ -28,7 +28,3 @@ Université Côte d'Azur, Nice, France
 - Partial Differential Equations
 - Scientific Computing
 
----
-
-Welcome to my academic homepage.  
-Use the navigation above to view my publications, presentations, teaching record, education, and CV.
