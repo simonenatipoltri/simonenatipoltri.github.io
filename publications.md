@@ -18,5 +18,5 @@
 
 - Antonietti, P. F., Botti, M., Mazzieri, I., **Nati Poltri, S.** (2022). A high-order discontinuous Galerkin method for the poro-elasto-acoustic problem on polygonal and polyhedral grids. *SIAM Journal on Scientific Computing*, 44(1), B1-B28. [Link](https://www.arxiv.org/pdf/2006.16373.pdf)
 
-- **Nati Poltri, S.**, Caluori, G., Jaïs, P., Collin, A., Poignard, C. (2023, June). Electrocardiology modeling after catheter ablations for atrial fibrillation. In *International Conference on Functional Imaging and Modeling of the Heart* (pp. 184-193). Cham: Springer Nature Switzerland. [Link](https://hal.science/hal-04155159v1/file/article_HAL.pdf)
+- **Nati Poltri, S.**, Caluori, G., Jaïs, P., Collin, A., Poignard, C. (2023). Electrocardiology modeling after catheter ablations for atrial fibrillation. In *International Conference on Functional Imaging and Modeling of the Heart* (pp. 184-193). Cham: Springer Nature Switzerland. [Link](https://hal.science/hal-04155159v1/file/article_HAL.pdf)
 
