@@ -12,13 +12,11 @@
 
 </div>
 
-# Oral and Poster Presentations
+# Publications
 
-- **2025**, Paris, France. DTE & AICOMAS 2025. Presentation.
-- **2024**, Lille, France. Applied Analysis and Modeling: a conference in honor of Olivier Goubet. Presentation.
-- **2024**, Rome, Italy. 5th World Congress on Electroporation and Pulsed Electric Fields in Biology, Medicine, and Food & Environmental Technologies. Presentation.
-- **2024**, Le Bois-Plage-en-Ré, Ile de Ré. CANUM 2024. Presentation.
-- **2024**, Besançon. Journées Numériques de Besançon 2024. Presentation.
-- **2023**, Marne-la-Vallée. Journées Math Bio Santé 2023. Presentation.
-- **2023**, Lyon. 12th International Conference on Functional Imaging and Modeling of the Heart. Poster.
-- **2022**, Copenhagen. 4th World Congress on Electroporation and Pulsed Electric Fields in Biology, Medicine and Food & Environmental Technologies. Poster.
+- Collin, A., **Nati Poltri, S.**, Poignard, C. (2025). Asymptotic Analysis of the Static Bidomain Model for Pulsed Field Cardiac Ablation. *Mathematical Methods in the Applied Sciences*. [Link](https://onlinelibrary.wiley.com/doi/pdf/10.1002/mma.70267)
+
+- Antonietti, P. F., Botti, M., Mazzieri, I., **Nati Poltri, S.** (2022). A high-order discontinuous Galerkin method for the poro-elasto-acoustic problem on polygonal and polyhedral grids. *SIAM Journal on Scientific Computing*, 44(1), B1-B28. [Link](https://www.arxiv.org/pdf/2006.16373.pdf)
+
+- **Nati Poltri, S.**, Caluori, G., Jaïs, P., Collin, A., Poignard, C. (2023, June). Electrocardiology modeling after catheter ablations for atrial fibrillation. In *International Conference on Functional Imaging and Modeling of the Heart* (pp. 184-193). Cham: Springer Nature Switzerland. [Link](https://hal.science/hal-04155159v1/file/article_HAL.pdf)
+
