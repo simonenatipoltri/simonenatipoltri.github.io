@@ -11,3 +11,14 @@
 </table>
 
 </div>
+
+# Teaching
+
+- *ENSMAC-Bordeaux INP*, Talence, France. <span style="float: right;">*2023 – 2024*</span>  
+  **Practical Python programming for Analysis and Numerical Methods**, 12h, L3.
+
+- *ENSEIRB-MATMECA*, Talence, France. <span style="float: right;">*2023 – 2024*</span>  
+  **Practical Fortran 90 programming for scientific computing**, 44h, L3.
+
+- *ENSEIRB-MATMECA*, Talence, France. <span style="float: right;">*2022 – 2023*</span>  
+  **Practical Fortran 90 programming for scientific computing**, 44h, L3.
