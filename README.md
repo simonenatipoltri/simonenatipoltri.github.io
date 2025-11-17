@@ -14,12 +14,16 @@
 
 # Simone Nati Poltri
 
-<img src="photo.jpg" alt="Simone Nati Poltri" width="250" align="left" style="margin-right: 24px; margin-bottom: 12px;" /><br>
+<img src="photo.jpg" alt="Simone Nati Poltri" width="250" align="left" style="margin-right: 24px; margin-bottom: 12px;" />
 
 **Postdoctoral Researcher**  
-Université Côte d'Azur, Nice, France
+Université Côte d'Azur, Nice, France  
+Laboratoire J.A. Dieudonné (LJAD)  
+Parc Valrose, 28 Avenue Valrose, 06108, Nice
 
 **Contact:** [simone.nati-poltri@univ-cotedazur.fr](mailto:simone.nati-poltri@univ-cotedazur.fr)
+
+<br clear="left">
 
 ---
 
@@ -27,4 +31,3 @@ Université Côte d'Azur, Nice, France
 - Mathematical Modeling
 - Partial Differential Equations
 - Scientific Computing
-
