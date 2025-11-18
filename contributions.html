@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Publications - Simone Nati Poltri</title>
-    <link rel="stylesheet" href="style.css"> <!-- Load shared CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div id="menu"></div> <!-- Load shared navigation -->
+    <div id="menu"></div> <!-- navigation -->
 
     <h1>Publications</h1>
 
@@ -33,6 +33,8 @@
         <div class="publication-link"><a href="https://www.arxiv.org/pdf/2006.16373.pdf">Link</a></div>
     </div>
 
+    <!-- Add more publications here if you have any -->
+    
     <h1>Codes</h1>
 
     <div class="code">
@@ -40,16 +42,14 @@
         <div class="code-link">Code available at <a href="https://gitlab.inria.fr/snatipol/af-pfa-rfa">https://gitlab.inria.fr/snatipol/af-pfa-rfa</a></div>
     </div>
 
-    <div id="menu-footer"></div> <!-- Load shared navigation in footer -->
-
     <script>
-  fetch("nav.html")
-    .then(response => response.text())
-    .then(data => {
-      document.getElementById("menu").innerHTML = data;
-    })
-    .catch(error => console.error("Error loading nav:", error));
-</script>
+      fetch("nav.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("menu").innerHTML = data;
+        })
+        .catch(error => console.error("Error loading nav:", error));
+    </script>
 
 </body>
 </html>
