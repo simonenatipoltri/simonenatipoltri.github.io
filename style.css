@@ -77,3 +77,32 @@ hr {
     color: #666;
     margin-left: 10px;
 }
+
+.teaching-item {
+    margin-bottom: 25px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.institution {
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.date {
+    float: right;
+    color: #666;
+    font-style: italic;
+}
+
+.course-title {
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.course-details {
+    color: #555;
+}
