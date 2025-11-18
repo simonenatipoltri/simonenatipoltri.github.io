@@ -1,0 +1,79 @@
+:root {
+    --primary-color: #0366d6;
+    --bg-light: #f9fafb;
+    --border-color: #e5e7eb;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--bg-light);
+    line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+
+nav a {
+    padding: 10px 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 50px;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 500;
+    transition: all 0.2s ease;
+    background-color: white;
+}
+
+nav a:hover {
+    background-color: var(--primary-color);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.profile-img {
+    float: left;
+    margin-right: 24px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: var(--border-color);
+    margin: 30px 0;
+}
+
+.clear-left {
+    clear: left;
+}
+
+/* Styles specific to the conference list */
+.conference-list {
+    list-style: none;
+    padding: 0;
+}
+.conference-item {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.conference-year {
+    font-weight: bold;
+    color: #2c3e50;
+}
+.conference-type {
+    font-style: italic;
+    color: #666;
+    margin-left: 10px;
+}
