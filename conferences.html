@@ -4,71 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conferences - Simone Nati Poltri</title>
-    <style>
-        :root {
-            --primary-color: #0366d6;
-            --bg-light: #f9fafb;
-            --border-color: #e5e7eb;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: var(--bg-light);
-            line-height: 1.6;
-        }
-
-        nav {
-            display: flex;
-            justify-content: center;
-            gap: 1rem;
-            margin: 30px 0;
-            flex-wrap: wrap;
-        }
-
-        nav a {
-            padding: 10px 20px;
-            border: 1px solid var(--border-color);
-            border-radius: 50px;
-            text-decoration: none;
-            color: var(--primary-color);
-            font-weight: 500;
-            transition: all 0.2s ease;
-            background-color: white;
-        }
-
-        nav a:hover {
-            background-color: var(--primary-color);
-            color: white;
-            transform: translateY(-2px);
-            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
-        }
-
-        .conference-list {
-            list-style: none;
-            padding: 0;
-        }
-        .conference-item {
-            margin-bottom: 20px;
-            padding-bottom: 15px;
-            border-bottom: 1px solid #ddd;
-        }
-        .conference-year {
-            font-weight: bold;
-            color: #2c3e50;
-        }
-        .conference-type {
-            font-style: italic;
-            color: #666;
-            margin-left: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css"> <!-- External stylesheet -->
 </head>
 <body>
 
-    <div id="menu"></div> <!-- Include nav here -->
+    <div id="menu"></div> <!-- Navigation will be loaded here -->
 
     <h1>Conferences</h1>
 
@@ -99,9 +39,8 @@
         </li>
     </ul>
 
-    <div id="menu-footer"></div> <!-- Include nav also at footer -->
+    <div id="menu-footer"></div> <!-- Repeat nav at footer -->
 
-    <!-- Load the nav from nav.html -->
     <script>
       fetch("nav.html")
         .then(response => response.text())
