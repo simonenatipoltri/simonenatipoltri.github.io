@@ -43,15 +43,13 @@
     <div id="menu-footer"></div> <!-- Load shared navigation in footer -->
 
     <script>
-      fetch("nav.html")
-        .then(response => response.text())
-        .then(data => {
-          document.getElementById("menu").innerHTML = data;
-          const footerMenu = document.getElementById("menu-footer");
-          if (footerMenu) footerMenu.innerHTML = data;
-        })
-        .catch(error => console.error("Error loading nav:", error));
-    </script>
+  fetch("nav.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("menu").innerHTML = data;
+    })
+    .catch(error => console.error("Error loading nav:", error));
+</script>
 
 </body>
 </html>
