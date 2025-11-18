@@ -76,13 +76,7 @@
         <h1>Simone Nati Poltri</h1>
     </header>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="contributions.html">Contributions</a>
-        <a href="teaching.html">Teaching</a>
-        <a href="conferences.html">Conferences</a>
-        <a href="CV_natipoltri.pdf" target="_blank">CV</a>
-    </nav>
+    <div id="menu"></div>
 
     <img src="photo.jpg" alt="Simone Nati Poltri" width="250" class="profile-img">
 
@@ -107,15 +101,16 @@
 
     <hr>
 
-    <footer>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="contributions.html">Contributions</a>
-            <a href="teaching.html">Teaching</a>
-            <a href="conferences.html">Conferences</a>
-            <a href="CV_natipoltri.pdf" target="_blank">CV</a>
-        </nav>
-    </footer>
-
+<div id="menu-footer"></div>
+    
+    <script>
+      fetch("nav.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("menu").innerHTML = data;
+          document.getElementById("menu-footer").innerHTML = data; // if you want it at the footer too
+        })
+        .catch(error => console.error("Error loading menu:", error));
+    </script>
 </body>
 </html>
