@@ -4,72 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Publications - Simone Nati Poltri</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            line-height: 1.6;
-        }
-        nav {
-            text-align: center;
-            margin: 30px 0;
-        }
-        nav table {
-            margin: 0 auto;
-            border-collapse: collapse;
-        }
-        nav td {
-            padding: 10px 20px;
-        }
-        nav a {
-            text-decoration: none;
-            color: #0366d6;
-            font-weight: bold;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        .publication, .code {
-            margin-bottom: 25px;
-            padding-bottom: 25px;
-            border-bottom: 1px solid #eee;
-        }
-        .publication:last-child, .code:last-child {
-            border-bottom: none;
-        }
-        .publication-title, .code-title {
-            margin: 8px 0;
-            font-weight: bold;
-        }
-        .publication-authors, .code-description {
-            margin: 5px 0;
-        }
-        .publication-link, .code-link {
-            margin-top: 8px;
-        }
-        .publication-link a, .code-link a {
-            color: #0366d6;
-            text-decoration: none;
-        }
-        .publication-link a:hover, .code-link a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css"> <!-- Load shared CSS -->
 </head>
 <body>
-    <div align="center">
-        <table>
-            <tr>
-                <td><a href="index.html"><b>Home</b></a></td>
-                <td><a href="contributions.html"><b>Contributions</b></a></td>
-                <td><a href="teaching.html"><b>Teaching</b></a></td>
-                <td><a href="conferences.html"><b>Conferences</b></a></td>
-                <td><a href="CV_natipoltri.pdf" target="_blank"><b>CV</b></a></td>
-            </tr>
-        </table>
-    </div>
+
+    <div id="menu"></div> <!-- Load shared navigation -->
 
     <h1>Publications</h1>
 
@@ -83,34 +22,36 @@
     <div class="publication">
         <div class="publication-authors">Nati Poltri, S., Caluori, G., Jaïs, P., Collin, A., Poignard, C. (2023).</div>
         <div class="publication-title">Electrocardiology modeling after catheter ablations for atrial fibrillation.</div>
-        <div>In <em>International Conference on Functional Imaging and Modeling of the Heart</em> (pp. 184-193). Cham: Springer Nature Switzerland.</div>
+        <div>In <em>International Conference on Functional Imaging and Modeling of the Heart</em> (pp. 184-193). Springer Nature Switzerland.</div>
         <div class="publication-link"><a href="https://hal.science/hal-04155159v1/file/article_HAL.pdf">Link</a></div>
     </div>
-    
+
     <div class="publication">
         <div class="publication-authors">Antonietti, P. F., Botti, M., Mazzieri, I., Nati Poltri, S. (2022).</div>
         <div class="publication-title">A high-order discontinuous Galerkin method for the poro-elasto-acoustic problem on polygonal and polyhedral grids.</div>
         <div><em>SIAM Journal on Scientific Computing</em>, 44(1), B1-B28.</div>
         <div class="publication-link"><a href="https://www.arxiv.org/pdf/2006.16373.pdf">Link</a></div>
     </div>
-    
+
     <h1>Codes</h1>
 
     <div class="code">
-        <div>Numerical implementation of the electrocardiology modeling after catheter ablations for atrial fibrillation</div>
+        <div class="code-title">Numerical implementation of the electrocardiology modeling after catheter ablations for atrial fibrillation</div>
         <div class="code-link">Code available at <a href="https://gitlab.inria.fr/snatipol/af-pfa-rfa">https://gitlab.inria.fr/snatipol/af-pfa-rfa</a></div>
     </div>
 
-    <div align="center">
-        <table>
-            <tr>
-                <td><a href="index.html"><b>Home</b></a></td>
-                <td><a href="contributions.html"><b>Contributions</b></a></td>
-                <td><a href="teaching.html"><b>Teaching</b></a></td>
-                <td><a href="conferences.html"><b>Conferences</b></a></td>
-                <td><a href="CV_natipoltri.pdf" target="_blank"><b>CV</b></a></td>
-            </tr>
-        </table>
-    </div>
+    <div id="menu-footer"></div> <!-- Load shared navigation in footer -->
+
+    <script>
+      fetch("nav.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("menu").innerHTML = data;
+          const footerMenu = document.getElementById("menu-footer");
+          if (footerMenu) footerMenu.innerHTML = data;
+        })
+        .catch(error => console.error("Error loading nav:", error));
+    </script>
+
 </body>
 </html>
