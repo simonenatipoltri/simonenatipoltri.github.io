@@ -5,83 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simone Nati Poltri</title>
     <style>
+        :root {
+            --primary-color: #0366d6;
+            --bg-light: #f9fafb;
+            --bg-dark: #f3f4f6;
+            --border-color: #e5e7eb;
+        }
+
         body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 900px;
             margin: 0 auto;
             padding: 20px;
+            background-color: var(--bg-light);
             line-height: 1.6;
         }
-        nav {
+
+        header {
             text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
             margin: 30px 0;
+            flex-wrap: wrap;
         }
-        nav table {
-            margin: 0 auto;
-            border-collapse: collapse;
-        }
-        nav td {
-            padding: 20px 25px; 
-        }
+
         nav a {
+            padding: 10px 20px;
+            border: 1px solid var(--border-color);
+            border-radius: 50px;
             text-decoration: none;
-            color: #0366d6;
-            font-weight: bold;
-            display: block; /* Makes entire area clickable */
-            padding: 10px 15px; /* Added internal padding */
-            border: 1px solid #e1e4e8; /* Subtle border */
-            border-radius: 6px; /* Rounded corners */
-            transition: all 0.2s ease; /* Smooth hover effect */
+            color: var(--primary-color);
+            font-weight: 500;
+            transition: all 0.2s ease;
+            background-color: white;
         }
+
         nav a:hover {
-            text-decoration: none;
-            background-color: #f6f8fa; /* Light background on hover */
-            border-color: #0366d6; /* Blue border on hover */
-            transform: translateY(-1px); /* Slight lift effect */
+            background-color: var(--primary-color);
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
         }
+
         .profile-img {
             float: left;
             margin-right: 24px;
             margin-bottom: 12px;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
         }
+
         hr {
             border: none;
             height: 1px;
-            background-color: #ddd;
+            background-color: var(--border-color);
             margin: 30px 0;
         }
+
         .clear-left {
             clear: left;
         }
     </style>
 </head>
 <body>
-    <div align="center">
-        <table>
-            <tr>
-                <td><a href="index.html"><b>Home</b></a></td>
-                <td><a href="contributions.html"><b>Contributions</b></a></td>
-                <td><a href="teaching.html"><b>Teaching</b></a></td>
-                <td><a href="conferences.html"><b>Conferences</b></a></td>
-                <td><a href="CV_natipoltri.pdf" target="_blank"><b>CV</b></a></td>
-            </tr>
-        </table>
-    </div>
+    <header>
+        <h1>Simone Nati Poltri</h1>
+    </header>
 
-    <h1>Simone Nati Poltri</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="contributions.html">Contributions</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="conferences.html">Conferences</a>
+        <a href="CV_natipoltri.pdf" target="_blank">CV</a>
+    </nav>
 
     <img src="photo.jpg" alt="Simone Nati Poltri" width="250" class="profile-img">
 
-    <p><strong>Postdoctoral Researcher</strong></p>
-    
-    <p>Université Côte d'Azur, Nice, France<br>
-    Laboratoire J.A. Dieudonné<br>
-    Office 612, LJAD, Parc Valrose, 28 avenue Valrose 06108 Nice, France</p>
+    <p><strong>Postdoctoral Researcher</strong><br>
+    Université Côte d'Azur, Nice, France<br>
+    Laboratoire J.A. Dieudonné</p>
 
     <p><strong>Contact:</strong> <a href="mailto:simone.nati-poltri@univ-cotedazur.fr">simone.nati-poltri@univ-cotedazur.fr</a></p>
 
     <div class="clear-left"></div>
-
     <hr>
 
     <p>Since January 2025, I am Post-Doc researcher at Université Côte-Azur, supervised by <a href="https://math.univ-cotedazur.fr/~guerrier/">Claire Guerrier</a> and <a href="https://math.univ-cotedazur.fr/~krell/">Stella Krell</a>.</p>
@@ -94,16 +105,17 @@
 
     <p>My research topics include Applied Mathematics, Mathematical Modeling, Partial Differential Equations, Asymptotic Analysis, and Computational Science.</p>
 
-    <div align="center">
-        <table>
-            <tr>
-                <td><a href="index.html"><b>Home</b></a></td>
-                <td><a href="contributions.html"><b>Contributions</b></a></td>
-                <td><a href="teaching.html"><b>Teaching</b></a></td>
-                <td><a href="conferences.html"><b>Conferences</b></a></td>
-                <td><a href="CV_natipoltri.pdf" target="_blank"><b>CV</b></a></td>
-            </tr>
-        </table>
-    </div>
+    <hr>
+
+    <footer>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="contributions.html">Contributions</a>
+            <a href="teaching.html">Teaching</a>
+            <a href="conferences.html">Conferences</a>
+            <a href="CV_natipoltri.pdf" target="_blank">CV</a>
+        </nav>
+    </footer>
+
 </body>
 </html>
