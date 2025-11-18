@@ -107,7 +107,6 @@ hr {
     color: #555;
 }
 
-/* Publications & Codes Styles */
 .publication, .code {
     background-color: white;
     border: 1px solid #ddd;
@@ -118,6 +117,7 @@ hr {
 }
 
 .publication-authors {
+    font-weight: normal;
     margin-bottom: 5px;
 }
 
