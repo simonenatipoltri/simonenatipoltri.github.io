@@ -42,13 +42,13 @@
 
     <div id="menu-footer"></div> <!-- Navigation at the footer (optional) -->
     
-    <script>
-        fetch("nav.html")
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById("menu").innerHTML = data;
-            })
-            .catch(error => console.error("Error loading menu:", error));
-    </script>
+<script>
+  fetch("nav.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("menu").innerHTML = data;
+    })
+    .catch(error => console.error("Error loading nav:", error));
+</script>
 </body>
 </html>
