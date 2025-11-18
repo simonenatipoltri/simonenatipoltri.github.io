@@ -4,79 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simone Nati Poltri</title>
-    <style>
-        :root {
-            --primary-color: #0366d6;
-            --bg-light: #f9fafb;
-            --bg-dark: #f3f4f6;
-            --border-color: #e5e7eb;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: var(--bg-light);
-            line-height: 1.6;
-        }
-
-        header {
-            text-align: center;
-        }
-
-        nav {
-            display: flex;
-            justify-content: center;
-            gap: 1rem;
-            margin: 30px 0;
-            flex-wrap: wrap;
-        }
-
-        nav a {
-            padding: 10px 20px;
-            border: 1px solid var(--border-color);
-            border-radius: 50px;
-            text-decoration: none;
-            color: var(--primary-color);
-            font-weight: 500;
-            transition: all 0.2s ease;
-            background-color: white;
-        }
-
-        nav a:hover {
-            background-color: var(--primary-color);
-            color: white;
-            transform: translateY(-2px);
-            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
-        }
-
-        .profile-img {
-            float: left;
-            margin-right: 24px;
-            margin-bottom: 12px;
-            border-radius: 10px;
-            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
-        }
-
-        hr {
-            border: none;
-            height: 1px;
-            background-color: var(--border-color);
-            margin: 30px 0;
-        }
-
-        .clear-left {
-            clear: left;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your external CSS -->
 </head>
 <body>
     <header>
         <h1>Simone Nati Poltri</h1>
     </header>
 
-    <div id="menu"></div>
+    <div id="menu"></div> <!-- Navigation will load here -->
 
     <img src="photo.jpg" alt="Simone Nati Poltri" width="250" class="profile-img">
 
@@ -89,9 +24,13 @@
     <div class="clear-left"></div>
     <hr>
 
-    <p>Since January 2025, I am Post-Doc researcher at Université Côte-Azur, supervised by <a href="https://math.univ-cotedazur.fr/~guerrier/">Claire Guerrier</a> and <a href="https://math.univ-cotedazur.fr/~krell/">Stella Krell</a>.</p>
+    <p>Since January 2025, I am Post-Doc researcher at Université Côte-Azur, supervised by
+    <a href="https://math.univ-cotedazur.fr/~guerrier/">Claire Guerrier</a> and
+    <a href="https://math.univ-cotedazur.fr/~krell/">Stella Krell</a>.</p>
 
-    <p>I defended my PhD at Inria Bordeaux Sud-Ouest, Université de Bordeaux in December 2024, under the supervision of <a href="https://annabellecollin.perso.math.cnrs.fr">Annabelle Collin</a> and <a href="https://people.rennes.inria.fr/Clair.Poignard/index.html">Clair Poignard</a>.</p>
+    <p>I defended my PhD at Inria Bordeaux Sud-Ouest, Université de Bordeaux in December 2024, under the supervision of
+    <a href="https://annabellecollin.perso.math.cnrs.fr">Annabelle Collin</a> and
+    <a href="https://people.rennes.inria.fr/Clair.Poignard/index.html">Clair Poignard</a>.</p>
 
     <p>Before that, I studied Mathematical Engineering at Politecnico di Milano, with a Master in Computational Science and Engineering. My Master thesis was under the supervision of Paola Francesca Antonietti.</p>
 
@@ -101,16 +40,16 @@
 
     <hr>
 
-<div id="menu-footer"></div>
+    <div id="menu-footer"></div> <!-- Navigation at the footer (optional) -->
     
     <script>
-      fetch("nav.html")
-        .then(response => response.text())
-        .then(data => {
-          document.getElementById("menu").innerHTML = data;
-          document.getElementById("menu-footer").innerHTML = data; // if you want it at the footer too
-        })
-        .catch(error => console.error("Error loading menu:", error));
+        fetch("nav.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("menu").innerHTML = data;
+                document.getElementById("menu-footer").innerHTML = data; // Shows menu again at footer
+            })
+            .catch(error => console.error("Error loading menu:", error));
     </script>
 </body>
 </html>
